@@ -1,0 +1,160 @@
+*{
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+button {
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0);
+    border:none ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    /* background-image: linear-gradient(blue , gray); */
+    background-color: rgb(138, 138, 138);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100% ;
+    padding: 0.2rem;
+    
+}
+
+/* .divDaNavegacao {
+    background-color: rgb(138, 138, 138);
+    max-width: 100%;
+    max-height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+/* 
+a, a ::after {
+    text-align: center;
+    margin: 0 1.5em;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+a{
+    color: blue;
+    margin: 0 5em;
+    height: fit-content;
+    width: 46px;
+    display: flex;
+    align-items: center;
+}
+/* img{
+    margin-right: auto;
+} */
+.imagemDoMenu{
+    max-width: 35px;
+    max-height: 35px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navegacaoDaLogo {
+    color: blue;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.divDoPanfleto{
+    background-image: url("imagemDeFundoTentativa1.jpg");
+    background-repeat: no-repeat;
+    width: 1074px;
+    height: 658px;
+    background-repeat: no-repeat;
+    position: center;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    height: 650 px;
+    width: 100% ;
+    
+}
+
+.imagemDoPanfleto{
+    padding: 2em;
+    width: 400px;
+    height: 550px;
+    
+    
+}
+
+.divDoParagrafo{
+    color: rgb(255, 255, 255)   ;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    justify-content: center;
+
+}
+
+.imagemDoMascote{
+    margin: 20px 1px;
+    border: rgba(66, 66, 66, 0.75) 2px solid;
+    background-color: rgba(138, 138, 138, 0.75);
+    display: flex;
+    flex-direction: column ;
+    box-sizing: content-box;
+    width: 250px;
+    height: 450px;
+    
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.paragrafoNormal{
+    padding: 10px;
+    background-color: rgba(138, 138, 138, 0.75);
+    border: rgba(0, 0, 255, 0.5) 2px solid;
+    width: 95%;
+    margin: 3px 2px;
+    height: cover ;
+    font-family: "Andale Mono", monospace;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(255, 255, 255);
+    text-shadow: 2px 2px black , 1px 1px black , 2px 2px black  , 2px 2px black;
+}
