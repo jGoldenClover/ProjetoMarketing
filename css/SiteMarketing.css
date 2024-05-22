@@ -95,8 +95,7 @@ a{
 }
 
 .divImagens{
-    /* background-image: url("imagemDeFundoTentativa1.jpg"); */
-    /* background-repeat: no-repeat;*/
+    
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(43, 82, 255) ;
@@ -131,8 +130,6 @@ a{
 .imagemDoMascote{
     border: rgba(66, 66, 66, 0.75) 2px solid;
     background-image: radial-gradient(rgba(138, 138, 138, 0.75) , rgb(43, 82, 255));
-    /* background-color: rgba(138, 138, 138, 0.75); */
-    
     height: 550px;
     width: 300px;
     margin: 2em ;
@@ -142,10 +139,7 @@ a{
 }
 
 p{
-    /* display: flex;
-    flex-direction: row; */
-    /* justify-content: center;
-    align-items: center;   */
+    
     padding: 20px;
     background-color: rgba(138, 138, 138, 0.75);
     border: rgba(0, 0, 255, 0.5) 2px solid;
@@ -170,11 +164,7 @@ p{
     align-items: center;
 }
 
-/* @media screen and (max-width: 768px) {
-    .divDoPanfleto {
-        width: 100%;
-}
-} */
+
 
 
 @media screen and (max-width: 768px) {
@@ -222,3 +212,5 @@ p{
         
     }
 }
+
+
